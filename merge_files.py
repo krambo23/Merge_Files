@@ -20,3 +20,5 @@ for i in range(0, no_of_files) :
 file_write = open(merged_output, "w") # Opening merged_output in w mode
 file_write.write(to_merge) # Writes into merge_output the contents of "to_merge"
 file_write.close() # Closes to_merge
+
+print("Merging Complete ;-)")
